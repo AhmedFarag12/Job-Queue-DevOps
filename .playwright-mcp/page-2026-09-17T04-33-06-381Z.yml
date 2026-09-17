@@ -1,0 +1,14 @@
+- generic [ref=f1e3]:
+  - heading "Job System" [level=1] [ref=f1e4]
+  - generic [ref=f1e5]:
+    - button "Sign in" [ref=f1e6] [cursor=pointer]
+    - button "Register" [active] [ref=f1e7] [cursor=pointer]
+  - generic [ref=f1e14]:
+    - generic [ref=f1e15]:
+      - text: Email
+      - textbox "Email" [ref=f1e16]
+    - generic [ref=f1e17]:
+      - text: Password
+      - textbox "Password At least 8 characters" [ref=f1e18]
+      - generic [ref=f1e19]: At least 8 characters
+    - button "Create account" [ref=f1e20] [cursor=pointer]

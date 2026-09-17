@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - heading "Job System" [level=1] [ref=e4]
+    - generic [ref=e5]:
+      - button "Sign in" [ref=e6] [cursor=pointer]
+      - button "Register" [ref=e7] [cursor=pointer]
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - text: Email
+        - textbox "Email" [ref=e10]
+      - generic [ref=e11]:
+        - text: Password
+        - textbox "Password" [ref=e12]
+      - button "Sign in" [ref=e13] [cursor=pointer]
+  - generic [ref=e15]:
+    - heading "New job" [level=2] [ref=e16]
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - text: Name
+        - textbox "Name" [ref=e19]:
+          - /placeholder: e.g. send-email
+      - generic [ref=e20]:
+        - text: Payload (JSON)
+        - textbox "Payload (JSON)" [ref=e21]:
+          - /placeholder: "{}"
+          - text: "{}"
+      - generic [ref=e22]:
+        - text: Max attempts
+        - spinbutton "Max attempts" [ref=e23]: "3"
+      - generic [ref=e24]:
+        - button "Cancel" [ref=e25] [cursor=pointer]
+        - button "Create" [ref=e26] [cursor=pointer]
+  - generic [ref=e28]:
+    - heading "Job details" [level=2] [ref=e29]
+    - button "Close" [ref=e31] [cursor=pointer]

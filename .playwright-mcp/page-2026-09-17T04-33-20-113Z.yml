@@ -1,0 +1,32 @@
+- generic [ref=f1e21]:
+  - generic [ref=f1e22]:
+    - heading "Job System" [level=1] [ref=f1e23]
+    - generic [ref=f1e24]:
+      - generic [ref=f1e25]: ui-test@example.com
+      - button "Log out" [ref=f1e26] [cursor=pointer]
+  - main [ref=f1e27]:
+    - generic [ref=f1e28]:
+      - generic [ref=f1e29]:
+        - combobox [ref=f1e30]:
+          - option "All statuses" [selected]
+          - option "Pending"
+          - option "Active"
+          - option "Completed"
+          - option "Failed"
+        - button "Refresh" [ref=f1e31] [cursor=pointer]
+      - button "+ New job" [ref=f1e32] [cursor=pointer]
+    - table [ref=f1e34]:
+      - rowgroup [ref=f1e35]:
+        - row [ref=f1e36]:
+          - columnheader "Name" [ref=f1e37]
+          - columnheader "Status" [ref=f1e38]
+          - columnheader "Attempts" [ref=f1e39]
+          - columnheader "Created" [ref=f1e40]
+          - columnheader [ref=f1e41]
+      - rowgroup [ref=f1e42]:
+        - row [ref=f1e43]:
+          - cell "No jobs found" [ref=f1e44]
+    - generic [ref=f1e45]:
+      - button "Prev" [disabled] [ref=f1e46]
+      - generic [ref=f1e47]: Page 1 of 1 · 0 job(s)
+      - button "Next" [disabled] [ref=f1e48]
